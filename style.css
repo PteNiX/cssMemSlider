@@ -176,12 +176,12 @@ body {
   }
 }
 
-@media all and (min-width: 1195px) and (max-width: 1500px) {
+@media all and (min-width: 840px) and (max-width: 1500px) {
   .container {
     width: 90%;
     background-color: rgb(24, 2, 102);
     margin: auto;
-    height: 35.5rem;
+    height: 36.5rem;
     border: 0.325rem solid rgb(231, 227, 4);
     overflow: hidden;
   }
@@ -298,13 +298,13 @@ body {
   }
 
   .text-info {
-    width: 38rem;
+    max-width: 37.5rem;
     background-color: rgb(24, 2, 102);
     margin: auto;
-    height: 3rem;
+    height: 6rem;
     color: rgb(231, 227, 4);
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     margin-top: -1rem;
     margin-left: 1.5rem;
   }
@@ -350,7 +350,7 @@ body {
   }
 }
 
-@media all and (max-width: 1194px) and (min-width: 500px) {
+@media all and (max-width: 839px) and (min-width: 500px) {
   .container {
     width: 90%;
     background-color: rgb(24, 2, 102);
@@ -471,7 +471,7 @@ body {
   }
 
   .text-info {
-    width: 48rem;
+    width: 43rem;
     background-color: rgb(24, 2, 102);
     margin: auto;
     height: 3rem;
