@@ -1,0 +1,867 @@
+body {
+  background-color: rgb(24, 2, 102);
+}
+
+@media all and (min-width: 1501px) {
+  .container {
+    width: 90%;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 40.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+    overflow: hidden;
+  }
+  .title {
+    background-color: rgb(24, 2, 102);
+    width: 100%;
+    height: 3.125rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(231, 227, 4);
+  }
+
+  .slide-container {
+    background-color: rgb(24, 2, 102);
+    height: 36.25rem;
+    width: 400%;
+    display: flex;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 0.3125rem;
+    width: 9.5rem;
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 1.875rem;
+    cursor: pointer;
+    background-color: rgb(231, 227, 4);
+    border-radius: 0, 625rem;
+    transition: all 0.4s ease;
+    z-index: 1;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  input[name="r"] {
+    display: none;
+  }
+
+  .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #radio1:checked ~ .slide-container > .s1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .slide-container > .s1 {
+    margin-left: -25%;
+  }
+
+  #radio3:checked ~ .slide-container > .s1 {
+    margin-left: -50%;
+  }
+
+  #radio4:checked ~ .slide-container > .s1 {
+    margin-left: -75%;
+  }
+
+  #radio1:checked ~ .container-text > .l1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .container-text > .l1 {
+    margin-left: -100%;
+  }
+
+  #radio3:checked ~ .container-text > .l1 {
+    margin-left: -200%;
+  }
+
+  #radio4:checked ~ .container-text > .l1 {
+    margin-left: -300%;
+  }
+
+  #radio1:checked ~ .navigation > .label1 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio2:checked ~ .navigation > .label2 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio3:checked ~ .navigation > .label3 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio4:checked ~ .navigation > .label4 {
+    background-color: rgb(8, 4, 231);
+  }
+
+  .down-section {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    height: 3.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+  }
+
+  .text-info {
+    width: 38rem;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 3rem;
+    color: rgb(231, 227, 4);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: -1rem;
+    margin-left: 1.5rem;
+  }
+
+  .quotes {
+    width: 400%;
+    display: flex;
+  }
+
+  .text-info {
+    width: 25%;
+  }
+
+  .l1 {
+    transition: 0.6s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .rap {
+    color: rgb(143, 0, 0);
+  }
+
+  .mik {
+    color: rgb(255, 174, 0);
+  }
+
+  .leo {
+    color: rgb(19, 109, 226);
+  }
+
+  .don {
+    color: rgb(137, 0, 216);
+  }
+}
+
+@media all and (min-width: 840px) and (max-width: 1500px) {
+  .container {
+    width: 90%;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 36.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+    overflow: hidden;
+  }
+  .title {
+    background-color: rgb(24, 2, 102);
+    width: 100%;
+    height: 3.125rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(231, 227, 4);
+  }
+
+  .slide-container {
+    background-color: rgb(24, 2, 102);
+    height: 31.25rem;
+    width: 400%;
+    display: flex;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 0.3125rem;
+    width: 9.5rem;
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 1.875rem;
+    cursor: pointer;
+    background-color: rgb(231, 227, 4);
+    border-radius: 0, 625rem;
+    transition: all 0.4s ease;
+    z-index: 1;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  input[name="r"] {
+    display: none;
+  }
+
+  .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #radio1:checked ~ .slide-container > .s1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .slide-container > .s1 {
+    margin-left: -25%;
+  }
+
+  #radio3:checked ~ .slide-container > .s1 {
+    margin-left: -50%;
+  }
+
+  #radio4:checked ~ .slide-container > .s1 {
+    margin-left: -75%;
+  }
+
+  #radio1:checked ~ .container-text > .l1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .container-text > .l1 {
+    margin-left: -100%;
+  }
+
+  #radio3:checked ~ .container-text > .l1 {
+    margin-left: -200%;
+  }
+
+  #radio4:checked ~ .container-text > .l1 {
+    margin-left: -300%;
+  }
+
+  #radio1:checked ~ .navigation > .label1 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio2:checked ~ .navigation > .label2 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio3:checked ~ .navigation > .label3 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio4:checked ~ .navigation > .label4 {
+    background-color: rgb(8, 4, 231);
+  }
+
+  .down-section {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    height: 3.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+  }
+
+  .text-info {
+    max-width: 37.5rem;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 6rem;
+    color: rgb(231, 227, 4);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 1.5rem;
+  }
+
+  .quotes {
+    width: 400%;
+    display: flex;
+  }
+
+  .text-info {
+    width: 25%;
+  }
+
+  .l1 {
+    transition: 0.6s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .rap {
+    color: rgb(143, 0, 0);
+  }
+
+  .mik {
+    color: rgb(255, 174, 0);
+  }
+
+  .leo {
+    color: rgb(19, 109, 226);
+  }
+
+  .don {
+    color: rgb(137, 0, 216);
+  }
+}
+
+@media all and (max-width: 839px) and (min-width: 500px) {
+  .container {
+    width: 90%;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 35.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+    overflow: hidden;
+  }
+  .title {
+    background-color: rgb(24, 2, 102);
+    width: 100%;
+    height: 3.125rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(231, 227, 4);
+  }
+
+  .slide-container {
+    background-color: rgb(24, 2, 102);
+    height: 27.25rem;
+    width: 400%;
+    display: flex;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 0.3125rem;
+    width: 9.5rem;
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 1.875rem;
+    cursor: pointer;
+    background-color: rgb(231, 227, 4);
+    border-radius: 0, 625rem;
+    transition: all 0.4s ease;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  input[name="r"] {
+    display: none;
+  }
+
+  .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #radio1:checked ~ .slide-container > .s1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .slide-container > .s1 {
+    margin-left: -25%;
+  }
+
+  #radio3:checked ~ .slide-container > .s1 {
+    margin-left: -50%;
+  }
+
+  #radio4:checked ~ .slide-container > .s1 {
+    margin-left: -75%;
+  }
+
+  #radio1:checked ~ .container-text > .l1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .container-text > .l1 {
+    margin-left: -100%;
+  }
+
+  #radio3:checked ~ .container-text > .l1 {
+    margin-left: -200%;
+  }
+
+  #radio4:checked ~ .container-text > .l1 {
+    margin-left: -300%;
+  }
+
+  #radio1:checked ~ .navigation > .label1 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio2:checked ~ .navigation > .label2 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio3:checked ~ .navigation > .label3 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio4:checked ~ .navigation > .label4 {
+    background-color: rgb(8, 4, 231);
+  }
+
+  .down-section {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    height: 3.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+  }
+
+  .text-info {
+    width: 43rem;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 3rem;
+    color: rgb(231, 227, 4);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .quotes {
+    width: 400%;
+    display: flex;
+  }
+
+  .text-info {
+    width: 25%;
+  }
+
+  .l1 {
+    transition: 0.6s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .rap {
+    color: rgb(143, 0, 0);
+  }
+
+  .mik {
+    color: rgb(255, 174, 0);
+  }
+
+  .leo {
+    color: rgb(19, 109, 226);
+  }
+
+  .don {
+    color: rgb(137, 0, 216);
+  }
+}
+
+@media all and (max-width: 499px) and (min-width: 375px) {
+  .container {
+    width: 90%;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 33.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+    overflow: hidden;
+  }
+  .title {
+    background-color: rgb(24, 2, 102);
+    width: 100%;
+    height: 2.625rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2.1rem;
+    color: rgb(231, 227, 4);
+  }
+
+  .slide-container {
+    background-color: rgb(24, 2, 102);
+    height: 20.25rem;
+    width: 400%;
+    display: flex;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 0.3125rem;
+    width: 9.5rem;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 1.875rem;
+    cursor: pointer;
+    background-color: rgb(231, 227, 4);
+    border-radius: 0, 625rem;
+    transition: all 0.4s ease;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  input[name="r"] {
+    display: none;
+  }
+
+  .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #radio1:checked ~ .slide-container > .s1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .slide-container > .s1 {
+    margin-left: -25%;
+  }
+
+  #radio3:checked ~ .slide-container > .s1 {
+    margin-left: -50%;
+  }
+
+  #radio4:checked ~ .slide-container > .s1 {
+    margin-left: -75%;
+  }
+
+  #radio1:checked ~ .container-text > .l1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .container-text > .l1 {
+    margin-left: -100%;
+  }
+
+  #radio3:checked ~ .container-text > .l1 {
+    margin-left: -200%;
+  }
+
+  #radio4:checked ~ .container-text > .l1 {
+    margin-left: -300%;
+  }
+
+  #radio1:checked ~ .navigation > .label1 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio2:checked ~ .navigation > .label2 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio3:checked ~ .navigation > .label3 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio4:checked ~ .navigation > .label4 {
+    background-color: rgb(8, 4, 231);
+  }
+
+  .down-section {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    height: 3.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+  }
+
+  .text-info {
+    width: 58rem;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 3rem;
+    color: rgb(231, 227, 4);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .quotes {
+    width: 400%;
+    display: flex;
+  }
+
+  .text-info {
+    width: 25%;
+  }
+
+  .l1 {
+    transition: 0.6s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .rap {
+    color: rgb(143, 0, 0);
+  }
+
+  .mik {
+    color: rgb(255, 174, 0);
+  }
+
+  .leo {
+    color: rgb(19, 109, 226);
+  }
+
+  .don {
+    color: rgb(137, 0, 216);
+  }
+}
+
+@media all and (max-width: 374px) {
+  .container {
+    width: 90%;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 32.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+    overflow: hidden;
+  }
+  .title {
+    background-color: rgb(24, 2, 102);
+    width: 100%;
+    height: 2.425rem;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(231, 227, 4);
+  }
+
+  .slide-container {
+    background-color: rgb(24, 2, 102);
+    height: 20.25rem;
+    width: 400%;
+    display: flex;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 0.3125rem;
+    width: 9.5rem;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 1.875rem;
+    cursor: pointer;
+    background-color: rgb(231, 227, 4);
+    border-radius: 0, 625rem;
+    transition: all 0.4s ease;
+  }
+
+  .bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  input[name="r"] {
+    display: none;
+  }
+
+  .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #radio1:checked ~ .slide-container > .s1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .slide-container > .s1 {
+    margin-left: -25%;
+  }
+
+  #radio3:checked ~ .slide-container > .s1 {
+    margin-left: -50%;
+  }
+
+  #radio4:checked ~ .slide-container > .s1 {
+    margin-left: -75%;
+  }
+
+  #radio1:checked ~ .container-text > .l1 {
+    margin-left: 0;
+  }
+
+  #radio2:checked ~ .container-text > .l1 {
+    margin-left: -100%;
+  }
+
+  #radio3:checked ~ .container-text > .l1 {
+    margin-left: -200%;
+  }
+
+  #radio4:checked ~ .container-text > .l1 {
+    margin-left: -300%;
+  }
+
+  #radio1:checked ~ .navigation > .label1 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio2:checked ~ .navigation > .label2 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio3:checked ~ .navigation > .label3 {
+    background-color: rgb(8, 4, 231);
+  }
+  #radio4:checked ~ .navigation > .label4 {
+    background-color: rgb(8, 4, 231);
+  }
+
+  .down-section {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    height: 3.5rem;
+    border: 0.325rem solid rgb(231, 227, 4);
+  }
+
+  .text-info {
+    width: 58rem;
+    background-color: rgb(24, 2, 102);
+    margin: auto;
+    height: 3rem;
+    color: rgb(231, 227, 4);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .quotes {
+    width: 400%;
+    display: flex;
+  }
+
+  .text-info {
+    width: 25%;
+  }
+
+  .l1 {
+    transition: 0.6s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+  .rap {
+    color: rgb(143, 0, 0);
+  }
+
+  .mik {
+    color: rgb(255, 174, 0);
+  }
+
+  .leo {
+    color: rgb(19, 109, 226);
+  }
+
+  .don {
+    color: rgb(137, 0, 216);
+  }
+}
